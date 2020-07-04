@@ -1,0 +1,20 @@
+.navbar {
+  height: 60px;
+  @apply grid grid-cols-4 gap-4 items-center bg-white px-4 shadow-lg;
+}
+
+.logo {
+  @apply col-span-2;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.navigation {
+  @apply flex justify-end col-span-2;
+}
+
+.navigation > a {
+  @apply pl-2;
+}

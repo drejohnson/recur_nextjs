@@ -1,0 +1,13 @@
+.event_form {
+  @apply flex flex-col justify-center;
+}
+
+.event_form h1 {
+  @apply text-3xl  text-center mb-4;
+}
+
+@screen md {
+  .event_form h1 {
+    @apply text-5xl;
+  }
+}

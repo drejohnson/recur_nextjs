@@ -1,0 +1,37 @@
+.hero {
+  @apply grid grid-cols-1 bg-gray-200;
+}
+
+.hero_graphic {
+  @apply mb-8;
+}
+
+.hero_info {
+  @apply flex flex-col justify-center;
+}
+
+.hero_info h1 {
+  @apply text-3xl mb-4;
+}
+
+.hero_info h2 {
+  @apply text-2xl mb-4;
+}
+
+@screen md {
+  .hero {
+    @apply grid-cols-2;
+  }
+
+  .hero_info h1 {
+    @apply text-5xl;
+  }
+
+  .hero_graphic {
+    @apply mb-0;
+  }
+
+  .hero_info h2 {
+    @apply text-3xl;
+  }
+}

@@ -1,0 +1,18 @@
+.daysOfWeek {
+  display: inline-block;
+  padding-right: 0.25rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.daysOfWeek,
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 4px;
+  width: 100%;
+}

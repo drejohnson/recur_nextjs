@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+
+/* body {
+  @apply bg-blue-500;
+} */
+
+section {
+  @apply p-4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold leading-tight;
+}
+
+button {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded-full w-48;
+}
+
+button:hover {
+  @apply bg-blue-700;
+}
+
+input {
+  @apply appearance-none bg-gray-200 w-full border border-gray-200 py-2 px-3 mb-3 rounded-full;
+}
+
+@screen md {
+  @apply p-8;
+}
+
+@tailwind utilities;
