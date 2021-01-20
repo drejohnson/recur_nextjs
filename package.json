@@ -11,7 +11,7 @@
   "dependencies": {
     "dayjs": "^1.8.28",
     "framer-motion": "^2.1.0",
-    "gsap": "^3.4.1",
+    "gsap": "^3.6.0",
     "next": "canary",
     "react": "16.13.1",
     "react-day-picker": "^7.4.8",
